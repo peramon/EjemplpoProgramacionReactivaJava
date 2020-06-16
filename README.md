@@ -10,7 +10,7 @@ Este es un ejemplo de como usar la programación reactiva en java, el concepto d
 │       │               └── app
 │       │                   ├── ejemplo
 |       |                       └── controller
-│       │                   │       ├── PersonaController.java -> Funciones rest y uso aplición de programación reactiva con flex(streams)
+│       │                   │       ├── PersonaController.java -> Rest, Programación reactiva con flex(streams)
 │       │                   │   ├── models
 │       │                   │       ├── Persona.java  -> Clase contiene objeto persona
 │       └── resources 
