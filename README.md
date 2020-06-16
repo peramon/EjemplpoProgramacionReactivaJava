@@ -1,0 +1,1 @@
+Este es un ejemplo de como usar la programación reactiva en java, el concepto de streams se maneja por medio de flux, esta enfocado a la creacion y utilizacon de operadores, en donde dependiendo de cierta acción se va a realizar un procesamiento de datos y nos devolvera un nuevo conjunto de datos.
