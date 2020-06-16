@@ -1,3 +1,4 @@
+## Java con Spring Reactive
 Este es un ejemplo de como usar la programación reactiva en java, el concepto de streams se maneja por medio de flux, esta enfocado a la creación y utilización de operadores, en donde dependiendo de cierta acción se va a realizar un procesamiento de datos y nos devolvera un nuevo conjunto de datos.
 
 ```
@@ -16,7 +17,7 @@ Este es un ejemplo de como usar la programación reactiva en java, el concepto d
 │       └── resources 
 │           └── application.properties
 ```
-## Funciones dentro de la clase controller
+### Funciones dentro de la clase controller
 Usando Flux para presentar una lista del objeto Persona
 
 	// Creando servicio Rest para mostrar datos de una lista de Objetos Persona usando el concepto de Flux
@@ -31,7 +32,7 @@ Usando Flux para presentar una lista del objeto Persona
 		return personasFlux;
 	}
 
- Aplicando el concepto de programación reactiva
+ ### Aplicando el concepto de programación reactiva
  ```
 	// Creando el mismo servicio aterior, aplicando el concepto de programación reactiva
 	@GetMapping("/respuesta")
